@@ -1,0 +1,21 @@
+# Data files — downloaded at runtime via kagglehub
+*.csv
+*.gz
+*.zip
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+
+# Colab/Jupyter artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kaggle credentials — never commit these
+kaggle.json
